@@ -1,3 +1,5 @@
+/* HERO */
+
 #hero{
     background-image: linear-gradient(rgba(255, 255, 255, 0.5),white), url("../img/hero/thumb-1920-66310-1536x960.jpg");
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.142);
@@ -6,15 +8,18 @@
     position: relative;
     z-index: 3;
 }
-/* APÓS HERO */
+
+#hero img{
+    margin: auto;
+    width: 100%;
+}
+
+
+/* MENU */
 
 #menu {
     position: fixed;
     z-index: 2;
-}
-
-#portifolio{
-    z-index: 1;
 }
 
 #menu img{
@@ -22,17 +27,23 @@
     margin:auto;
 }
 
-#texto-nav{
-    margin: auto;
+#texto-rodape{
     font-size: 10px;
     text-align: center;
     max-width: 60vw;
+    position: relative;
+    z-index: 5;
+    margin: 0;
+    padding: 0;
+
 }
 
-#hero img{
-    margin: auto;
-    width: 100%;
+/* PORTIFOLIO */
+
+#portifolio{
+    z-index: 1;
 }
+
 
 .d-block{
     width: 100vw;
