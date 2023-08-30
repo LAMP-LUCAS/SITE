@@ -1,0 +1,26 @@
+#hero{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5),white), url("../img/hero/thumb-1920-66310-1536x960.jpg");
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.142);
+}
+
+#hero img{
+    margin: auto;
+    width: 100%;
+}
+
+.d-block{
+    width: 100vw;
+    height: 85vh;
+    object-fit: cover;
+
+}
+
+.d-block img{
+    margin: auto;
+    width: 100%;
+}
+
+#menu img{
+    height: 30px;
+    margin:auto;
+}
