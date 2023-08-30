@@ -1,6 +1,31 @@
 #hero{
     background-image: linear-gradient(rgba(255, 255, 255, 0.5),white), url("../img/hero/thumb-1920-66310-1536x960.jpg");
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.142);
+    z-index: 10;
+    height: 100vh;
+    position: relative;
+    z-index: 3;
+}
+
+#menu {
+    position: fixed;
+    z-index: 2;
+}
+
+#portifolio{
+    z-index: 1;
+}
+
+#menu img{
+    height: 30px;
+    margin:auto;
+}
+
+#texto-nav{
+    margin: auto;
+    font-size: 10px;
+    text-align: center;
+    max-width: 60vw;
 }
 
 #hero img{
@@ -18,15 +43,4 @@
 .d-block img{
     margin: auto;
     width: 100%;
-}
-
-#menu img{
-    height: 30px;
-    margin:auto;
-}
-
-#texto-nav{
-    font-size: 10px;
-    text-align: center;
-    max-width: 60vw;
 }
