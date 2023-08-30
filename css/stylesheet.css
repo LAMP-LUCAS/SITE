@@ -6,7 +6,6 @@
     z-index: 10;
     height: 100vh;
     position: relative;
-    z-index: 3;
 }
 
 #hero img{
@@ -27,17 +26,6 @@
     margin:auto;
 }
 
-#texto-rodape{
-    font-size: 10px;
-    text-align: center;
-    max-width: 60vw;
-    position: relative;
-    z-index: 5;
-    margin: 0;
-    padding: 0;
-
-}
-
 /* PORTIFOLIO */
 
 #portifolio{
@@ -55,4 +43,17 @@
 .d-block img{
     margin: auto;
     width: 100%;
+}
+
+/* RODAPE */
+
+.rodape{
+    font-size: 10px;
+    text-align: center;
+    max-width: 100vw;
+    position: relative;
+    z-index: 5;
+    margin: 0;
+    padding: 0;
+
 }
