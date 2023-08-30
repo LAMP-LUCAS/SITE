@@ -24,3 +24,9 @@
     height: 30px;
     margin:auto;
 }
+
+#texto-nav{
+    font-size: 10px;
+    text-align: center;
+    max-width: 60vw;
+}
