@@ -1,11 +1,13 @@
 /* HERO */
 
-#hero{
-    background-image: linear-gradient(rgba(255, 255, 255, 0.5),white), url("../img/hero/thumb-1920-66310-1536x960.jpg");
-    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.142);
+#hero {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5),white), url(../img/hero/thumb-1920-66310-1536x960.jpg);
     z-index: 10;
     height: 100vh;
     position: relative;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
 }
 
 #hero img{
