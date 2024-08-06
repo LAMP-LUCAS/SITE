@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta Content-Type= "text/html" charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Somos um escritório de arquitetura focado em projetos e construções de casas de campo.">
+    
+    <title>LAMP - Arquitetura</title>
+    <link rel="icon" href="../favicon_1.ico">
+    <!-- CONFIG BOOTSTRAP CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- END CONFIG BOOTSTRAP CSS -->
+    
+    <!-- CSS PERSONALIZADO -->
+    <link rel="stylesheet" href="../css/stylesheet.css">
+    <!-- FIM CSS PERSONALIZADO -->
+
+    <!-- scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- fim scripts -->
+    <title> LAMP - Arquitetura </title>
+</head>
+<body id="body">
+    <section id="heroSys" class="text-center pt-5 px-5">
+        <div style="height: 70vh; margin-bottom: 10vh;align-content: center;">
+            <h2 id="titulo">O projeto na sua mão</h2>        
+            <span style="display:grid; align-items:center; margin-right: 50vw;" class="m-3">
+                <span> Utilizando o <b style="font-size: larger;">Notion</b> como uma plataforma eficiente,<b style="font-size: larger;">compartilhamos</b> os objetivos, as tarefas, os prazos, os resultados e os feedbacks em <b style="font-size: larger;">tempo real</b>
+            </span><br><br>
+            <!-- <p>Acesse o Sistema clicando no botão abaixo </p> -->
+            <a id= "botao" style="width: 70%; margin: auto;" class="btn btn-primary px-5" href="#" >Acessar Plataforma</a>
+        </div>
+    </section>
+    <header id="header">
+        <nav id="menu" class="navbar navbar-expand-lg navbar-light bg-light border-top fixed-bottom align-content-between">
+            <a class="navbar-brand" href="../index.html" title="Logo LAMP Arquitetura"><img src="../logo_icon.svg" alt="LAMP"></a>
+            <a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+            </a>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="../index.html#sobre">Sobre Nós</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html#portfolio">Portfólio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html#contato">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main><!--
+    <section id="contato" class="text-center pb-5 m-5" style="display:grid;">
+        <h3>Contato </h3>
+        <p> 62 981 613 868 | contato@arqlamp.com </p>
+    </section>-->
+</main>
+    <!-- FIM DO CONTAINER MAIN-->
+    
+    <footer>
+        <span class="rodape" style="position:absolute;bottom: 0vh;margin-bottom: 10vh; padding-top: 5vh;" >
+            
+            <p>&copy; 2023 LAMP Arquitetura.<br>Todos os direitos reservados.</p>
+            
+        </span>
+        
+    </footer>
+    
+    
+    <!-- CONFIG BOOTSTRAP SCRIPTS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <!-- END CONFIG BOOTSTRAP SCRIPTS-->
+    <!-- Recolhimento do menu -->
+    <script>
+        $("#menu").on("click", function () {
+        $('.navbar-collapse').collapse('hide');
+        });
+
+        $("#body").on("click", function () {
+            $('.navbar-collapse').collapse('hide');
+        });
+
+    </script>
+    <!-- end Recolhimento do menu -->
+    <!--acesso-->
+    <script>
+        // Cria uma variável com a senha correta
+        var senha = "sucesso";
+
+        // Cria uma variável com o link do botão
+        var link = "https://toquio5811-adm.notion.site/Home-db14ed7971ac4744b721a19f6d4e8860?pvs=4";
+
+        // Cria uma função que verifica a senha e abre o link
+        function verificarSenha() {
+        // Solicita ao usuário que digite a senha
+        var entrada = prompt("Digite a senha", "");
+
+        // Verifica se a senha está correta
+        if (entrada == senha) {
+            // Abre o link em uma nova aba ou janela
+            window.open(link);
+        } else {
+            // Exibe uma mensagem de erro
+            alert("Senha incorreta!");
+        }
+        }
+
+        // Seleciona o botão pelo seu id
+        var botao = document.getElementById("botao");
+
+        // Adiciona um evento de clique ao botão que chama a função verificarSenha
+        botao.addEventListener("click", verificarSenha);
+
+
+    </script>
+    <!--end acesso-->
+</body>
+</html>

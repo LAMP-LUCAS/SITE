@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
+  .container {
+    width: 800px;
+    margin: 0 auto;
+  }
+  
+  .header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .header h1 {
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+  
+  .header h2 {
+    font-size: 18px;
+  }
+  
+  .content {
+    padding: 10px;
+  }
+  
+  .experience, .formation, .skills, .about, .references {
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+  }
+  
+  .experience ul, .formation ul, .skills ul, .references ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .experience li, .formation li, .skills li, .references li {
+    margin-bottom: 5px;
+  }
+  
+  .experience li strong, .formation li strong, .skills li strong, .references li strong {
+    font-weight: bold;
+  }
+  
+  .about p {
+    text-align: justify;
+  }
+  
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .footer ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .footer a {
+    color: #fff;
+  }
