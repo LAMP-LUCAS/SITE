@@ -6,6 +6,13 @@
     z-index: -1;
 }
 
+/*ESTILOS GERAIS*/
+
+.btn-secondary{
+    background-color: rgb(77, 153, 96);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
 /* Main do site */
 #main {
     z-index: -5;
@@ -104,13 +111,16 @@
     left: var(--local);
     right: var(--local);
     font-size: 1.5vw;
+    text-align: center;
 
     position: fixed;
-    min-height: 10vh;
+    align-self: center;   
+    min-height: 5vh;
+    max-width: 20vw;
+
+    margin: auto;    
+    bottom: 0vh;    
     
-    bottom: -1.5%;
-    min-width: 100%;
-    text-align: center;
 }
 
 /* Forumlarios */
