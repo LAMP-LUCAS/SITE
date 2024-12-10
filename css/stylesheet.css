@@ -6,8 +6,6 @@
     
 }
 
-/*TELAS PEQUENAS iphone 14 Pro Max 430X932*/
-
 
 @media (max-width: 430px) {
     :root {
@@ -89,6 +87,10 @@
     width: 100vw;
 }
 
+#heroSys h1 {
+    text-shadow: rgb(158, 158, 158) 0em 0em 0.1rem;
+}
+
 .Hero_p{
     margin-top: 1vh;
 }
@@ -132,28 +134,41 @@
 
 /* MENU */
 #header {
-    --hmenu: 4vh;
+    --hmenu: 5vh;
     z-index: 2;
     position: fixed;
     width: 100%;
 }
 
-#header img {
-    --Hicon: calc(var(--hmenu)*0.9);
+#header  img {
+    --Hicon: calc(var(--hmenu)*0.8);
     height: var(--Hicon);
     margin:auto;
 }
 
+.navbar-toggler-icon{
+    scale: 0.5;
+    margin: -10%;
+}
+
 .navbar {
+    /*
     height: var(--hmenu);
+    */
+
     text-align: right;
     font-size: small;
     padding-left: 1.5vw;
     padding-right: 1.5vw;
-    padding-top: 2vh;
+    padding-top: 1vh;
     padding-bottom: 5vh;
 }
 
+/*
+.navbar-expand-lg{
+    height: calc(var(--hmenu)*7);
+}
+*/
 
 /* RODAPE */
 .rodape {
