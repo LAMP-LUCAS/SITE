@@ -1,3 +1,5 @@
+/* ESTILOS PERSONALIZADOS */
+
 :root {
     --fontSize-Width: 2rem;
     --fontSize-height: 3rem;
@@ -5,7 +7,6 @@
     font-size: var(--fontSize-Width);
     
 }
-
 
 @media (max-width: 430px) {
     :root {
